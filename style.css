@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03010e;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    position: relative;
+    margin: 0 5px;
+    width: 200px;
+    height: 240px;
+}
+
+.clock div p {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2ed6f;
+    z-index: 1;
+    font-size: 80px;
+    border: none;
+    box-shadow: 0px 34px 45px 0px rgba(0, 0, 0, 0.56);
+}
+
+.clock div p:first-child {
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(23, 25, 160);
+    color: #fff;
+}
+
+.clock div:first-child p:last-child {
+    background-color: #090133;
+    color: white;
+}
+
+.clock div:last-child p {
+    background-color: #89199c;
+    color: white;
+}
+
+.clock div:nth-child(2) p:first-child {
+    background-color: rgba(14, 156, 33, 0.9);
+    color: white;
+}
+
+.clock div:nth-child(2) p:last-child {
+    background-color: #063010;
+    color: white;
+}
+
+.clock div:last-child p:last-child {
+    background-color: #2c003e;
+    color: white;
+}
+
+
+.clock div p:last-child {
+    font-size: 30px;
+    height: 80px;
+    background-color: #f4e04d;
+    border-radius: 0 0 20px 20px;
+}
