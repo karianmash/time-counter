@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
     height: 100vh;
     display: flex;
     justify-content: center;
